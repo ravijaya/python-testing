@@ -22,3 +22,6 @@ def test_getssh(monkeypatch):
     x = getssh()
     assert x == Path("/abc/.ssh")
 
+if __name__ == '__main__':
+    print(getssh())
+
